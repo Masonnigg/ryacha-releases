@@ -1,30 +1,30 @@
 {
-  "version": "1.0.14",
-  "notes": "Corrige les sous-titres du panneau Premiere sur les Mac sans Homebrew (erreur « ffmpeg »). Après la mise à jour, redémarre Premiere.",
-  "date": "2026-11-05T18:25:39.665Z",
+  "version": "1.0.15",
+  "notes": "Pubs : chaque partie s'ouvre sur une timeline. Tire les bords d'un clip pour couper plus tôt ou plus tard, remplace une prise (celles de l'IA ou une recherche dans les rushes), supprime une phrase, ⌘Z pour annuler.",
+  "date": "2026-11-06T01:36:01.491Z",
   "assets": {
     "arm64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.14/RYACHA-1.0.14-arm64.zip",
-      "sha256": "469a7964b71656be965a7eda4598ba897ba9b2941bf92908b32f83b992fe1b9f",
-      "size": 164407025,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.15/RYACHA-1.0.15-arm64.zip",
+      "sha256": "be5968777f1295869317114c2bb52ab26681d9d26097ada8605978c060d89135",
+      "size": 164413748,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.14/RYACHA-1.0.14-arm64.patch.zip",
-        "sha256": "2f397d670a7d0f73f21cd501d799d6150fc47951d558bb90f4e74da8ba097fc0",
-        "size": 1507916,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.15/RYACHA-1.0.15-arm64.patch.zip",
+        "sha256": "6dfa5411a2941f03a8a691946e24d33f60d9c4e78091ac63c883d6238a667a59",
+        "size": 1514640,
         "base": "4d8f3dd03a019651b3ac759c2580b1aff755dc95a7a1002c1ba871e808bcece8",
-        "full": "6dea92d309c690373e8c7f463c00c8b4a24683b6a6b2aa150b751e2c66152716"
+        "full": "b51b452b679359ec808ff782d2d9ac7b988b69e31b0215f10c46002e3a47b23c"
       }
     },
     "x64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.14/RYACHA-1.0.14-x64.zip",
-      "sha256": "9c0e6d2bb834785dbaf1146ef888df2f3dec8e0c858cdd682649e3dc00bcf003",
-      "size": 136148198,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.15/RYACHA-1.0.15-x64.zip",
+      "sha256": "96baaa5c946b8ff394076fd0470c714d30f6849f8cc30a96028846c8b5bdf70d",
+      "size": 136154922,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.14/RYACHA-1.0.14-x64.patch.zip",
-        "sha256": "c9394a8e09c59357f9fdbe88e31e533dbf87771c2ca1939fc3721653c9bfe136",
-        "size": 1538210,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.15/RYACHA-1.0.15-x64.patch.zip",
+        "sha256": "77bf75a5638b8c7757fc311b69b8cfa215f4f0cd04b27624d1c960e5f0c42e1c",
+        "size": 1544935,
         "base": "a5b957b14c31c7012e0ebe5ace1439d7809bf639abe5f39f6084b7744ef7ada3",
-        "full": "ac4540b2895e0d88b2583dac8b19ecd5cde519cd7031af0b30ea0409619b91bf"
+        "full": "7f744dd12c3d056d65291ea4a4b4c300da14083c9e36c6e8244bf096d3461773"
       }
     }
   }
