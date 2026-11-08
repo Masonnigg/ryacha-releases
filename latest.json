@@ -1,30 +1,30 @@
 {
-  "version": "1.0.18",
-  "notes": "Corrections : la timeline des Pubs suit mieux la lecture d'un rush à l'autre, la sélection et les aperçus de prises sont plus fiables, et le panneau Premiere garde le bon son quand un rush a plusieurs pistes audio.",
-  "date": "2026-11-08T13:04:47.333Z",
+  "version": "1.0.19",
+  "notes": "Les exports vers Media Encoder ne sont plus doublés ni marqués en échec à tort, et l'étape style tient dans Premiere 2026. Les Pubs vérifient chaque prise contre le script (chiffres, années, formulation), signalent les sections du brief douteuses, n'exportent plus les parties vides et préviennent si un rush a changé depuis l'analyse. Le panneau suit le projet ouvert. Une erreur dans un onglet n'efface plus toute la fenêtre, et Hook passe sur une autre IA si la connexion à Claude a expiré.",
+  "date": "2026-11-08T17:39:51.888Z",
   "assets": {
     "arm64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-arm64.zip",
-      "sha256": "837c5fb9ae567136711d80f0cca362d156407223ba9e903044c0e6d4199ca0fe",
-      "size": 164418460,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.19/RYACHA-1.0.19-arm64.zip",
+      "sha256": "f6020222757b9102656aa01563aa94a1ce4d9a9bc679896c518679eb3b21f947",
+      "size": 164423854,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-arm64.patch.zip",
-        "sha256": "23946336c1be5bb0d9cecb436dbbd8707fff1f6fcff4c504b76c2531e6affba4",
-        "size": 1519308,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.19/RYACHA-1.0.19-arm64.patch.zip",
+        "sha256": "9c3e6dcbab6d19ea347c238aa34ed8eca9b3f7f484e850027ec5984fd1f7976f",
+        "size": 1524701,
         "base": "4d8f3dd03a019651b3ac759c2580b1aff755dc95a7a1002c1ba871e808bcece8",
-        "full": "8adcfd30d9fe34490091a8e539e6644e4d291e7112419252a7d331b13189e8d1"
+        "full": "a202bb0d8aff5e7af07b3f60c37ffe0d8dd1f31322b1d24ad9ef8a628688071d"
       }
     },
     "x64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-x64.zip",
-      "sha256": "ab6859af4602fe24a71a54ca5e02596274b69269fd877c84981d4d4f331fa825",
-      "size": 162183153,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.19/RYACHA-1.0.19-x64.zip",
+      "sha256": "30f71c4a802bec5bb11590eccd9f4977819bc46c1e48dbc6917823eda9c70648",
+      "size": 162188550,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-x64.patch.zip",
-        "sha256": "4850c9d9f789ffee72e0b7e04b7ae12f72e2830ba184107cf2f7506e97b9f082",
-        "size": 1549672,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.19/RYACHA-1.0.19-x64.patch.zip",
+        "sha256": "6c7c5f3faa172e6f3f8c19af580433d24460e1cdd54f13060342c9929ceaff8d",
+        "size": 1555068,
         "base": "78c86b16451202fce7478d7f921cb531e0d493f53836e145d464e1002dcfc0db",
-        "full": "33f4a2365f1aa8ae3359b65cfc3ce810695a9922c93c23c005bc2d70997223d6"
+        "full": "5e78b2a3f4cff567ce080cd211705a746618a449bf04b7e3ee0dcb454e509e91"
       }
     }
   }
