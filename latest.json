@@ -1,30 +1,30 @@
 {
-  "version": "1.0.17",
-  "notes": "Panneau Premiere : il ne devient plus vide pendant les sous-titres (le son des parties est préparé par RYACHA, Premiere reste libre). Pubs : si la connexion Claude Code a expiré, ChatGPT prend le relais quand il est connecté.",
-  "date": "2026-11-07T00:10:42.015Z",
+  "version": "1.0.18",
+  "notes": "Corrections : la timeline des Pubs suit mieux la lecture d'un rush à l'autre, la sélection et les aperçus de prises sont plus fiables, et le panneau Premiere garde le bon son quand un rush a plusieurs pistes audio.",
+  "date": "2026-11-08T13:04:47.333Z",
   "assets": {
     "arm64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.17/RYACHA-1.0.17-arm64.zip",
-      "sha256": "6510910836f21118fad503292ce2057b4848719f512b08e40af3f34aaab4ac40",
-      "size": 164417890,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-arm64.zip",
+      "sha256": "837c5fb9ae567136711d80f0cca362d156407223ba9e903044c0e6d4199ca0fe",
+      "size": 164418460,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.17/RYACHA-1.0.17-arm64.patch.zip",
-        "sha256": "f113dfb7924a336c5e5669df2153580f07435da33714015b0fe410c0edba831d",
-        "size": 1518737,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-arm64.patch.zip",
+        "sha256": "23946336c1be5bb0d9cecb436dbbd8707fff1f6fcff4c504b76c2531e6affba4",
+        "size": 1519308,
         "base": "4d8f3dd03a019651b3ac759c2580b1aff755dc95a7a1002c1ba871e808bcece8",
-        "full": "e1fd7ffc8b5917a14c5aa16209ada345c8351dc866737b8d100f4c4e723f5db8"
+        "full": "8adcfd30d9fe34490091a8e539e6644e4d291e7112419252a7d331b13189e8d1"
       }
     },
     "x64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.17/RYACHA-1.0.17-x64.zip",
-      "sha256": "88daddc286a5411962a66da065edcadb83b74018051c4a0fc7ce350991cb4bed",
-      "size": 162182587,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-x64.zip",
+      "sha256": "ab6859af4602fe24a71a54ca5e02596274b69269fd877c84981d4d4f331fa825",
+      "size": 162183153,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.17/RYACHA-1.0.17-x64.patch.zip",
-        "sha256": "4d0b6b37c4fc3b3c1ba1a74ea131b2b1a9c02608a57270e8a087476eaacd48a8",
-        "size": 1549105,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.18/RYACHA-1.0.18-x64.patch.zip",
+        "sha256": "4850c9d9f789ffee72e0b7e04b7ae12f72e2830ba184107cf2f7506e97b9f082",
+        "size": 1549672,
         "base": "78c86b16451202fce7478d7f921cb531e0d493f53836e145d464e1002dcfc0db",
-        "full": "57a2817e7d6c2b11d5f766b049f030d3b3c6deab419ed9037e13fd6adc572c78"
+        "full": "33f4a2365f1aa8ae3359b65cfc3ce810695a9922c93c23c005bc2d70997223d6"
       }
     }
   }
