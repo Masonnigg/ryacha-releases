@@ -1,30 +1,30 @@
 {
-  "version": "1.0.20",
-  "notes": "ChatGPT choisit maintenant les prises aussi bien que Claude dans les Pubs : il cherche les parties par petits groupes et fait les mêmes coupes. Une partie oubliée par l'IA est redemandée toute seule, et s'il en reste une, un bandeau propose « Les chercher » au lieu d'afficher « Prise introuvable ».",
-  "date": "2026-11-10T22:20:31.049Z",
+  "version": "1.0.21",
+  "notes": "Un même projet Premiere peut maintenant contenir les pubs de plusieurs scripts : chaque construction est gardée, et en haut du panneau RYACHA tu choisis le script à traiter. Tu peux revenir à tout moment sur un script plus ancien pour l'exporter.",
+  "date": "2026-11-13T11:24:31.264Z",
   "assets": {
     "arm64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.20/RYACHA-1.0.20-arm64.zip",
-      "sha256": "9e9371a3a2ebd6300fcab5c3a7c351cfaafea84172d15cbbad86c9b881587a6d",
-      "size": 164425722,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.21/RYACHA-1.0.21-arm64.zip",
+      "sha256": "ad259d2fcd2122089ae411b3e88ac43f9697673dae1c813743ab4cbae900ceaf",
+      "size": 164426484,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.20/RYACHA-1.0.20-arm64.patch.zip",
-        "sha256": "fd8eab34584b256bd4393ce5387c4311ae28b772230612938f9c6566567da076",
-        "size": 1526570,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.21/RYACHA-1.0.21-arm64.patch.zip",
+        "sha256": "106e6d650b2a53fdf2d710882bd90f186e3db27f535f3e1e173af43ba33ce5d9",
+        "size": 1527332,
         "base": "4d8f3dd03a019651b3ac759c2580b1aff755dc95a7a1002c1ba871e808bcece8",
-        "full": "cbd53d0e62f2ecaa1e7bd83efe677ee7ade2bcb9f5cddc0b482d2828de3d6f63"
+        "full": "7a7836c4d93564c39e1d8b778ac1779c61812b3f996c8fcbd12a192c602914e5"
       }
     },
     "x64": {
-      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.20/RYACHA-1.0.20-x64.zip",
-      "sha256": "05e293c5eafa16696b54895ee085743f8214c4e487b46b830cf44744a3b8ff37",
-      "size": 162190417,
+      "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.21/RYACHA-1.0.21-x64.zip",
+      "sha256": "834411f7c874c9177fb2773d27c7c9ebfda5cf3dc2bf89d1cdad7421f5c922aa",
+      "size": 162191184,
       "patch": {
-        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.20/RYACHA-1.0.20-x64.patch.zip",
-        "sha256": "57545cd2c48296258d3c228fbba281f31eaf61ff7f7228fa61bbe06b66d0c0dd",
-        "size": 1556936,
+        "url": "https://github.com/Masonnigg/ryacha-releases/releases/download/v1.0.21/RYACHA-1.0.21-x64.patch.zip",
+        "sha256": "0978f9c58d1264b5033b777546219a641df63b2d4a093ad53ac7ad4fcefdc5fd",
+        "size": 1557703,
         "base": "78c86b16451202fce7478d7f921cb531e0d493f53836e145d464e1002dcfc0db",
-        "full": "d56bf76dd6f8514b07cd465e1b392095d83108462b3a49504a475f2feb941263"
+        "full": "9da3ba0809b4eff5c2103df1a6b6c0bdb7e68eb3e75e337efb2dda45d719faf3"
       }
     }
   }
